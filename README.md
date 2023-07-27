@@ -1,7 +1,10 @@
 <p align="center"><img src="./readme_images/banner.png" width=1000 /></p>
 
 # About
-This is the mathematical model for epithelial transport along the nephron, specifically focusing on calcium transport which is implemented in Python 3. The models account for sex differences, providing a better understanding of nephron functionality. To improve computation time, parallel computation of different types of nephron is implemented for the multiple nephron model. 
+This is the mathematical model for epithelial transport along the nephron, specifically focusing on calcium transport which is implemented in Python 3. The models account for sex differences, providing a better understanding of nephron functionality. To improve computation time, parallel computation of different types of nephrons is implemented for the multiple nephron model. 
+
+The results of calcium transport along the superficial nephron along with sodium and calcium related inhibitions are given in the paper "Coupling of renal sodium and calcium transport: A modelling analysis of transporter inhibition and sex differences".
+
 
 # Instructions
 To run the parallel simulation code use command: **python3 parallel_simulate.py --sex [option] --species [option] --type [option] --diabetes [option] --inhibition [option] --pregnant [option]**
