@@ -60,4 +60,4 @@ Published papers:
 
 
 ### Previous versions
-Previous versions of this model code are available [here]([https://github.com/Layton-Lab/nephron)]) and [here](https://github.com/uwrhu).
+Previous versions of this model code are available [here](https://github.com/Layton-Lab/nephron)) and [here](https://github.com/uwrhu).
