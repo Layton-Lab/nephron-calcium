@@ -47,9 +47,7 @@ The unit of flow is **pmol/min**.
 ## Related Work
 Please cite the appropriate paper when using this model for calcium transport-related purposes.
 
-
-
-Previously published papers based on the previous epithelial solute and water transport model:
+Previously published papers based on the previous epithelial solute and water transport model (does not include calcium transport):
 * **multiple nephron model (male only):** [2016 Layton et al. "A computational model for simulating solute transport and oxygen consumption along the nephrons"](https://journals.physiology.org/doi/full/10.1152/ajprenal.00293.2016)
 * **superficial nephron (sex-specific):** [2019 Hu et al. "Functional implications of the sex differences in transporter abundance along the rat nephron: modeling and analysis"](https://journals.physiology.org/doi/full/10.1152/ajprenal.00352.2019)
 * **multiple nephron (sex-specific):** [2020 Hu et al. "Sex differences in solute transport along the nephrons: effects of Na+ transport inhibition"](https://journals.physiology.org/doi/abs/10.1152/ajprenal.00240.2020?rfr_dat=cr_pub++0pubmed&url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org)
