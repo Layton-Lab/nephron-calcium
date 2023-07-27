@@ -59,4 +59,4 @@ Previously published papers based on the previous epithelial solute and water tr
 * **pregnant rat (superficial nephron):** [2022 Stadt and Layton "Adaptive changes in single-nephron GFR, tubular morphology, and transport in a pregnant rat nephron: modeling and analysis"](https://journals.physiology.org/doi/abs/10.1152/ajprenal.00264.2021)
 
 ### Previous versions
-Previous versions of this model code are available [here](https://github.com/uwrhu).
+Previous versions of this model code are available [here](https://github.com/Layton-Lab/nephron) and  [here](https://github.com/uwrhu).
