@@ -1,3 +1,5 @@
+<p align="center"><img src="./readme_images/banner.png" width=500 /></p>
+
 # About
 This is the mathematical model for epithelial transport along the nephron, specifically focusing on calcium transport which is implemented in Python 3. The models account for sex differences, providing a better understanding of nephron functionality. To improve computation time, parallel computation of different types of nephron is implemented for the multiple nephron model. 
 
@@ -8,7 +10,7 @@ The options here are:
 
 sex: **Male, Female** (required);
 
-species: **human, rat, mouse** (required);
+species: **rat** (required);
 
 type: **superficial, multiple** (required);
 
@@ -21,8 +23,8 @@ inhibition: **ACE, SGLT2, NHE3-50, NHE3-80, NKCC2-70, NKCC2-100, NCC-70, NCC-100
 unx: **N, Y** (optional, default: N)
 
 Notes:
-* Human only have ACE and SGLT2 inhibition cases. The others are for rats.
-* pregnancy: only has been characterized for normal pregnant rat superficial nephron at this time (i.e., not done for humans and for diabetes, also multiple nephron)
+* Calcium transport is currently made for the rat model only.
+* Calcium-related alterations in transporters and channels in diabetes and pregnancy are a work in progress. 
 
 ### Understanding output
 
@@ -43,9 +45,11 @@ The unit of flow is **pmol/min**.
 **/plot/** contains some example scripts for plotting output
 
 ## Related Work
-Please cite appropriate paper(s) when using this model.
+Please cite the appropriate paper when using this model for calcium transport-related purposes.
 
-Published papers:
+
+
+Previously published papers based on the previous epithelial solute and water transport model:
 * **multiple nephron model (male only):** [2016 Layton et al. "A computational model for simulating solute transport and oxygen consumption along the nephrons"](https://journals.physiology.org/doi/full/10.1152/ajprenal.00293.2016)
 * **superficial nephron (sex-specific):** [2019 Hu et al. "Functional implications of the sex differences in transporter abundance along the rat nephron: modeling and analysis"](https://journals.physiology.org/doi/full/10.1152/ajprenal.00352.2019)
 * **multiple nephron (sex-specific):** [2020 Hu et al. "Sex differences in solute transport along the nephrons: effects of Na+ transport inhibition"](https://journals.physiology.org/doi/abs/10.1152/ajprenal.00240.2020?rfr_dat=cr_pub++0pubmed&url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org)
