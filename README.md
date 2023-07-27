@@ -1,5 +1,5 @@
 # About
-This is latest version of sex-specific mathematical models for epithelial transport along the nephron implemented in Python 3. Related research papers are listed below. Please cite appropriately. To improve computation time, parallel computation of different types of nephron is implemented for the multiple nephron model. 
+This is the mathematical model for epithelial transport along the nephron, specifically focusing on calcium transport which is implemented in Python 3. The models account for sex differences, providing a better understanding of nephron functionality. To improve computation time, parallel computation of different types of nephron is implemented for the multiple nephron model. 
 
 # Instructions
 To run the parallel simulation code use command: **python3 parallel_simulate.py --sex [option] --species [option] --type [option] --diabetes [option] --inhibition [option] --pregnant [option]**
