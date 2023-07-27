@@ -43,7 +43,7 @@ The unit of volume is **nl/min**.
 The unit of flow is **pmol/min**.
 
 **/plot/** contains some example scripts for plotting output
-
+<!-- 
 ## Related Work
 Please cite the appropriate paper when using this model for calcium transport-related purposes.
 
@@ -55,6 +55,6 @@ Previously published papers based on the previous epithelial solute and water tr
 * **human multiple nephron (sex-specific):** [2021 Hu et al. "Sex differences in solute and water handling in the human kidney: Modeling and functional implications"](https://www.sciencedirect.com/science/article/pii/S2589004221006350)
 * **diabetic human (sex-specific):** [2021 Hu et al. "A Computational Model of Kidney Function in a Patient with Diabetes"](https://www.mdpi.com/1422-0067/22/11/5819)
 * **pregnant rat (superficial nephron):** [2022 Stadt and Layton "Adaptive changes in single-nephron GFR, tubular morphology, and transport in a pregnant rat nephron: modeling and analysis"](https://journals.physiology.org/doi/abs/10.1152/ajprenal.00264.2021)
-
+-->
 ### Previous versions
 Previous versions of this model code are available [here](https://github.com/Layton-Lab/nephron) and  [here](https://github.com/uwrhu).
