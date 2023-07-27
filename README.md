@@ -9,7 +9,7 @@ The options here are:
 
 sex: **Male, Female** (required);
 
-species: **human, rat, mouse** (required);
+species: **rat** (required);
 
 type: **superficial, multiple** (required);
 
@@ -22,16 +22,16 @@ inhibition: **ACE, SGLT2, NHE3-50, NHE3-80, NKCC2-70, NKCC2-100, NCC-70, NCC-100
 unx: **N, Y** (optional, default: N)
 
 Notes:
-* Human only have ACE and SGLT2 inhibition cases. The others are for rats.
-* pregnancy: only has been characterized for normal pregnant rat superficial nephron at this time (i.e., not done for humans and for diabetes, also multiple nephron)
+* Calcium transport model is currently only available for the rat model. 
+* pregnancy: only has been characterized for normal pregnant rat superficial nephron at this time (i.e., not done for humans and for diabetes, also multiple nephron). Calcium transport in the pregnant rat model is a work in progress. 
 
 ### Understanding output
 
 All the output files' names are in the following structure: 'sex_species_segment_concentration/flow_of_solute_in_compartment.txt'. 
 
-Here is an example: female_rat_ccd_con_of_Cl_in_Bath.txt. It contains interstitial concentration of Chloride along cortical collecting duct in female rat.
+Here is an example: female_rat_ccd_con_of_Ca_in_Bath.txt. It contains interstitial concentration of Calcium along the cortical collecting duct in the female rat.
 
-Another example: male_hum_pt_flow_of_Na_in_Lumen.txt. It contains luminal flow of Sodium along proximal convolute tubule in male human.
+Another example: male_hum_pt_flow_of_Na_in_Lumen.txt. It contains the luminal flow of Sodium along the proximal convolute tubule in male human.
 
 These results are scaled per nephron.
 
@@ -42,21 +42,6 @@ The unit of volume is **nl/min**.
 The unit of flow is **pmol/min**.
 
 **/plot/** contains some example scripts for plotting output
-
-## Related Work
-Please cite the appropriate paper(s) when using this model.
-
-Published papers:
-* **multiple nephron model (male only):** [2016 Layton et al. "A computational model for simulating solute transport and oxygen consumption along the nephrons"](https://journals.physiology.org/doi/full/10.1152/ajprenal.00293.2016)
-* **superficial nephron (sex-specific):** [2019 Hu et al. "Functional implications of the sex differences in transporter abundance along the rat nephron: modeling and analysis"](https://journals.physiology.org/doi/full/10.1152/ajprenal.00352.2019)
-* **multiple nephron (sex-specific):** [2020 Hu et al. "Sex differences in solute transport along the nephrons: effects of Na+ transport inhibition"](https://journals.physiology.org/doi/abs/10.1152/ajprenal.00240.2020?rfr_dat=cr_pub++0pubmed&url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org)
-* **human multiple nephron (male only):** [2019 Layton and Layton "A computational model of epithelial solute and water transport along a human nephron"](https://journals.plos.org/ploscompbiol/article?rev=2&id=10.1371/journal.pcbi.1006108)
-* **human multiple nephron (sex-specific):** [2021 Hu et al. "Sex differences in solute and water handling in the human kidney: Modeling and functional implications"](https://www.sciencedirect.com/science/article/pii/S2589004221006350)
-* **diabetic human (sex-specific):** [2021 Hu et al. "A Computational Model of Kidney Function in a Patient with Diabetes"](https://www.mdpi.com/1422-0067/22/11/5819)
-* **pregnant rat (superficial nephron):** [2022 Stadt and Layton "Adaptive changes in single-nephron GFR, tubular morphology, and transport in a pregnant rat nephron: modeling and analysis"](https://journals.physiology.org/doi/abs/10.1152/ajprenal.00264.2021)
-* **pregnant and hypertensive female rats (multiple nephron):** [2023 Stadt et al. Effect of pregnancy and hypertension on kidney function in female rats: Modeling and functional implications"](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0279785)
-* **mouse model:** [2022 Stadt and Layton "Sex and species differences in epithelial transport in the rat and mouse kidneys: Modeling and analysis"](https://www.frontiersin.org/articles/10.3389/fphys.2022.991705/full?utm_source=dlvr.it&utm_medium=twitter)
-
 
 
 ### Previous versions
