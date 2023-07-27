@@ -1,4 +1,4 @@
-<p align="center"><img src="./readme_images/banner.png" width=500 /></p>
+<p align="center"><img src="./readme_images/banner.png" width=1000 /></p>
 
 # About
 This is the mathematical model for epithelial transport along the nephron, specifically focusing on calcium transport which is implemented in Python 3. The models account for sex differences, providing a better understanding of nephron functionality. To improve computation time, parallel computation of different types of nephron is implemented for the multiple nephron model. 
