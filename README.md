@@ -5,7 +5,7 @@ This is the mathematical model for epithelial transport along the nephron, speci
 
 The results of calcium transport along the superficial nephron along with sodium and calcium-related inhibitions are given in the paper "Coupling of renal sodium and calcium transport: A modelling analysis of transporter inhibition and sex differences".
 
-**Supplemantry material** providing transport and delivery values for various nephron segments for sodium and calcium for NHE3, NKCC2, NCC, ENaC and Calcium related inhibitions are provided in the Supplemantary Material" folder.
+* **Supplemantry material** providing transport and delivery values for various nephron segments for sodium and calcium for NHE3, NKCC2, NCC, ENaC and Calcium related inhibitions are provided in the Supplemantary Material" folder.
 
 
 # Instructions
