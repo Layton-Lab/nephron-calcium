@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/671618410.svg)](https://zenodo.org/badge/latestdoi/671618410)
+
+
 <p align="center"><img src="./readme_images/banner.png" width=1100 /></p>
 
 # About
